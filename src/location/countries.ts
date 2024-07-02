@@ -1,0 +1,28 @@
+export enum Country {
+    // CGI
+    POLAND = "poland",
+    GEORGIA = "georgia",
+    INDONESIA = "indonesia",
+    LATVIA = "latvia",
+    LITHUANIA = "lithuania",
+    SINGAPORE = "singapore",
+    THAILAND = "thailand",
+    NORWAY = "norway",
+    SWEDEN = "sweden",
+    QATAR = "qatar",
+    MALAYSIA = "malaysia",
+    TUNISIA = "tunisia",
+    MONGOLIA = "mongolia",
+    // AIS
+    KAZAKHSTAN = "kazakhstan",
+    ARMENIA = "armenia",
+    TURKEY = "turkiye",
+    SERBIA = "serbia",
+    CANADA = "canada",
+    PARAGUAY = "paraguay",
+    ARGENTINA = "argentina",
+    FRANCE = "france",
+    BELGIUM = "belgium",
+    ISRAEL = "israel",
+    MEXICO = "mexico",
+}

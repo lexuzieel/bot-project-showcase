@@ -1,0 +1,21 @@
+{
+    "tabWidth": 4,
+    "quoteProps": "as-needed",
+    "singleQuote": false,
+    "printWidth": 80,
+    "semi": true,
+    "useTabs": false,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "importOrder": [
+        "^@core/(.*)$",
+        "^@server/(.*)$",
+        "^@ui/(.*)$",
+        "^[./]"
+    ],
+    "importOrderParserPlugins": [
+        "typescript",
+        "decorators-legacy"
+    ],
+    "endOfLine": "auto"
+}

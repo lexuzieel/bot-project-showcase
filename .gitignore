@@ -1,0 +1,9 @@
+dist/
+node_modules/
+extensions/
+.eslintcache
+.env
+.env.test
+storage
+coverage/
+*.sqlite

@@ -1,0 +1,21 @@
+default:
+  features:
+    earlyAccess: false
+    widgetPromo: true
+    subscription:
+      notification: true
+      widget: true
+  api:
+    compression:
+      # enabled: false # Default: true
+      schedule: "*/10 * * * *"
+    cache:
+      enabled: false # Default: true
+      # ttl: 10m # Default: 10m
+      # refreshAheadFactor: 0.5 # Default: 0.5
+
+production:
+    cache:
+      enabled: true # Default: true
+      ttl: 10m # Default: 10m
+      refreshAheadFactor: 0.5 # Default: 0.5
